@@ -11,4 +11,4 @@ echo Restarting DHCPD
 systemctl start dhcpd.service
 sleep 20
 systemctl status dhcpd.service
-echo 'if the previous shows red text stating "\e[91mon ftp.isc.org. Features have been added and other changes have been made to the base software release in order to make it work better with this distribution." \e[39mThen restart the lab.'
+echo -e '\n\nIf the previous shows red text stating "\e[91mon ftp.isc.org. Features have been added and other changes have been made to the base software release in order to make it work better with this distribution." \e[39mThen restart the lab.'
