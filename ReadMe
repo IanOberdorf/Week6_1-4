@@ -1,0 +1,9 @@
+At the time I produced this document the lab environment would not let me use git clone through the terminal.
+
+You will need to open the vnc viewer, open the web browser in the server.
+Go to https://github.com/IanOberdorf/Week6_1-4 and choose to download the zip.
+Next you will need to extract the file to the desktop of the Student.
+Go to the terminal environment and switch to root (su -)
+As root go to the file on the student desktop (cd /home/Studen/Desktop/Week6_1-4)
+add execute to the script (chmod +x Cheat.sh)
+now execute the script (./Cheat.sh)
